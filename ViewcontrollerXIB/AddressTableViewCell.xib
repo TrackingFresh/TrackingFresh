@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="160" id="KGk-i7-Jjw" customClass="AddressTableViewCell" customModule="GoogleFacebookLogin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="159.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7G-ew-LAS">
+                        <rect key="frame" x="0.0" y="117" width="320" height="40"/>
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.80392156859999997" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="nGd-dc-VMk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="Default Address">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kishore Reddy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4D-E0-XeY">
+                        <rect key="frame" x="10" y="8" width="258" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="2Yx-TO-Lir"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9762868180" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpV-5j-4xR">
+                        <rect key="frame" x="10" y="29" width="248" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="guq-4d-G6L"/>
+                            <constraint firstAttribute="width" secondItem="wpV-5j-4xR" secondAttribute="height" multiplier="248:21" id="igK-fk-vyQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address Type: Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5a-tW-QIL">
+                        <rect key="frame" x="10" y="50" width="248" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Mdy-Su-V4l"/>
+                            <constraint firstAttribute="width" secondItem="J5a-tW-QIL" secondAttribute="height" multiplier="248:21" id="wrK-VG-EuH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address Type: Andheri East Address Type: Andheri East Address Type: Andheri East" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="xGF-bt-zqr">
+                        <rect key="frame" x="11" y="71" width="254" height="47"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="47" id="UBS-vf-Zho"/>
+                            <constraint firstAttribute="width" secondItem="xGF-bt-zqr" secondAttribute="height" multiplier="254:39" constant="-52.102564102564088" id="dxw-qB-kAR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUo-hD-M8M">
+                        <rect key="frame" x="291" y="28" width="23" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="23" id="5Vw-Hh-oAO"/>
+                        </constraints>
+                        <state key="normal" image="delete"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLw-Sy-J8b">
+                        <rect key="frame" x="293" y="68" width="18" height="18"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" image="edit"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xGF-bt-zqr" firstAttribute="top" secondItem="J5a-tW-QIL" secondAttribute="bottom" id="1Bz-Pu-mae"/>
+                    <constraint firstItem="bUo-hD-M8M" firstAttribute="trailing" secondItem="CLw-Sy-J8b" secondAttribute="trailing" constant="3" id="4hD-RE-bto"/>
+                    <constraint firstItem="q7G-ew-LAS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="E4r-h5-ygm"/>
+                    <constraint firstItem="bUo-hD-M8M" firstAttribute="leading" secondItem="h4D-E0-XeY" secondAttribute="trailing" constant="23" id="EJy-kX-vu8"/>
+                    <constraint firstItem="q7G-ew-LAS" firstAttribute="top" secondItem="CLw-Sy-J8b" secondAttribute="bottom" constant="31" id="FQ2-9i-7ZA"/>
+                    <constraint firstItem="CLw-Sy-J8b" firstAttribute="top" secondItem="bUo-hD-M8M" secondAttribute="bottom" constant="19" id="Huw-QC-ETd"/>
+                    <constraint firstItem="wpV-5j-4xR" firstAttribute="top" secondItem="h4D-E0-XeY" secondAttribute="bottom" id="I3z-Mp-khy"/>
+                    <constraint firstItem="J5a-tW-QIL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="KUs-ri-EWh"/>
+                    <constraint firstItem="bUo-hD-M8M" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="17" id="Ol7-o6-MEb"/>
+                    <constraint firstItem="h4D-E0-XeY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="QV1-kt-a3u"/>
+                    <constraint firstItem="h4D-E0-XeY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="h5y-yQ-N0c"/>
+                    <constraint firstAttribute="trailing" secondItem="q7G-ew-LAS" secondAttribute="trailing" id="h68-90-j6Z"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="CLw-Sy-J8b" secondAttribute="trailing" constant="-7" id="heI-Gv-FTN"/>
+                    <constraint firstItem="CLw-Sy-J8b" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-2.75" id="jdU-sb-b0q"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="q7G-ew-LAS" secondAttribute="bottom" constant="-7.5" id="nNX-ra-O8W"/>
+                    <constraint firstItem="wpV-5j-4xR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="oTo-8Z-GdD"/>
+                    <constraint firstItem="xGF-bt-zqr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-5" id="oyc-nc-n4x"/>
+                    <constraint firstItem="bUo-hD-M8M" firstAttribute="leading" secondItem="CLw-Sy-J8b" secondAttribute="leading" constant="-2" id="qMg-Ho-atm"/>
+                    <constraint firstItem="CLw-Sy-J8b" firstAttribute="leading" secondItem="xGF-bt-zqr" secondAttribute="trailing" constant="28" id="qUM-ZV-ngS"/>
+                    <constraint firstItem="J5a-tW-QIL" firstAttribute="top" secondItem="wpV-5j-4xR" secondAttribute="bottom" id="vOf-JK-9zq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addresstype" destination="J5a-tW-QIL" id="JnE-tH-ShI"/>
+                <outlet property="deleteBtn" destination="bUo-hD-M8M" id="lPS-8y-hxE"/>
+                <outlet property="editAddressBtn" destination="CLw-Sy-J8b" id="yYg-To-6NV"/>
+                <outlet property="fullAddress" destination="xGF-bt-zqr" id="Ea9-Am-eK0"/>
+                <outlet property="fullName" destination="h4D-E0-XeY" id="kle-8n-Gah"/>
+                <outlet property="mobileNo" destination="wpV-5j-4xR" id="uzX-cc-tgs"/>
+                <outlet property="setDefaultAddressBtn" destination="q7G-ew-LAS" id="qfk-IP-koR"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="57"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="delete" width="24" height="24"/>
+        <image name="edit" width="24" height="24"/>
+    </resources>
+</document>
